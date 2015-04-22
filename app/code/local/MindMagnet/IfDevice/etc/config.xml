@@ -1,0 +1,46 @@
+<?xml version="1.0"?>
+<!--
+/**
+* MindMagnet Software - The leading Magento Solution Partner
+*
+* MindMagnet IfDevice
+*
+* @author    Rastasan Mihai <mihai.rastasan@mindmagnetsoftware.com>
+* @package   MindMagnet_IfDevice
+* @copyright Copyright (c) 2015 MindMagnet SRL (http://www.mindmagnetsoftware.com)
+*/
+-->
+<config>
+    <modules>
+        <MindMagnet_IfDevice>
+            <version>1.0.3</version>
+        </MindMagnet_IfDevice>
+    </modules>
+    <global>
+        <models>
+            <mindmagnet_ifdevice>
+                <class>MindMagnet_IfDevice_Model</class>
+            </mindmagnet_ifdevice>
+            <core>
+                <rewrite>
+                    <layout>MindMagnet_IfDevice_Model_Core_Layout</layout>
+                </rewrite>
+            </core>
+            <enterprise_pagecache>
+                <rewrite>
+                    <processor>MindMagnet_IfDevice_Model_Enterprise_PageCache_Processor</processor>
+                </rewrite>
+            </enterprise_pagecache>
+            <enterprise_pagecache>
+                <rewrite>
+                    <container_advanced_quote>MindMagnet_IfDevice_Model_Enterprise_PageCache_Container_Advanced_Quote</container_advanced_quote>
+                </rewrite>
+            </enterprise_pagecache>
+        </models>
+        <helpers>
+            <mindmagnet_ifdevice>
+                <class>MindMagnet_IfDevice_Helper</class>
+            </mindmagnet_ifdevice>
+        </helpers>
+    </global>
+</config>

@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<!--
+/**
+* MindMagnet Software - The leading Magento Solution Partner
+*
+* MindMagnet IfDevice
+*
+* @author    Rastasan Mihai <mihai.rastasan@mindmagnetsoftware.com>
+* @package   MindMagnet_IfDevice
+* @copyright Copyright (c) 2015 MindMagnet SRL (http://www.mindmagnetsoftware.com)
+*/
+-->
+<config>
+    <modules>
+        <MindMagnet_IfDevice>
+            <active>true</active>
+            <codePool>local</codePool>
+        </MindMagnet_IfDevice>
+    </modules>
+</config>
