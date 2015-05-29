@@ -17,6 +17,13 @@
         </MindMagnet_IfDevice>
     </modules>
     <global>
+        <blocks>
+            <page>
+                <rewrite>
+                    <html_footer>MindMagnet_IfDevice_Block_Page_Html_Footer</html_footer>
+                </rewrite>
+            </page>
+        </blocks>
         <models>
             <mindmagnet_ifdevice>
                 <class>MindMagnet_IfDevice_Model</class>
