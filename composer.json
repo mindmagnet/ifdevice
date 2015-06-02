@@ -1,0 +1,10 @@
+{
+	"name":"mindmagnet/mindmagnet-ifdevice",
+	"homepage":"https://github.com/mindmagnet/mindmagnet-ifdevice",
+	"type":"magento-module",
+	"license":"OSL-3.0",
+	"description":"Magento IfDevice",
+	"suggest": {
+		"magento-hackathon/magento-composer-installer": "Allows to manage this package as a dependency"
+	}
+}
