@@ -41,6 +41,28 @@ To work with Magento Enterprise FPC you need to set under 'public_html/app/etc/l
     </cache>
 </global>
 ```
+##Instalation exemple with composer
+```
+{
+    "require": {
+        "magento-hackathon/magento-composer-installer":"dev-master",
+        "mindmagnet/mindmagnet-ifdevice": "*"
+    },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/magento-hackathon/magento-composer-installer"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/mindmagnet/mindmagnet-ifdevice.git"
+        }
+    ],
+    "extra":{
+        "magento-root-dir": "./"
+    }
+}
+```
 
 #Feedback
 If you find any issues or have any suggestions, please get in touch with us through [our site](http://www.mindmagnetsoftware.com)
